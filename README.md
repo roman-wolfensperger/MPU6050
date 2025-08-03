@@ -15,6 +15,10 @@ A comprehensive **Doxygen** documentation for this module is provided in HTML fo
 
 The HTML documentation for this specific module is hosted on GitHub Pages: [https://roman-wolfensperger.github.io/MPU6050/](https://roman-wolfensperger.github.io/MPU6050/).
 
+In the `/docs` directory of this repository, you will also find:
+* A **`latex.pdf`** file, which is a PDF version of the documentation generated from the Doxygen LaTeX output.
+* An **official MPU6050 specification PDF** (`MPU-6000-Register-Map1.pdf`) detailing the register map of the sensor, which is essential for understanding its internal workings and configuration.
+
 ## Example Usage
 
 An example file, `main.py`, is provided in the `example/` directory of this repository. This example demonstrates how to:
@@ -31,6 +35,8 @@ To use the `mpu6050.py` module in your MicroPython project:
 1.  **Transfer `mpu6050.py` to your microcontroller:**
     * Using Thonny, you can open `mpu6050.py`, then go to `File -> Save as... -> MicroPython device`. Save it as `mpu6050.py` in the root directory of your device.
     * Alternatively, use `ampy`, `rshell`, or other tools to copy the file to your microcontroller.
+  
+      
       <img src="https://github.com/roman-wolfensperger/MPU6050/blob/main/docs/images/micropython-device.jpg">
 
 2.  **Import the module in your main script:**
