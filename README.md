@@ -31,6 +31,7 @@ To use the `mpu6050.py` module in your MicroPython project:
 1.  **Transfer `mpu6050.py` to your microcontroller:**
     * Using Thonny, you can open `mpu6050.py`, then go to `File -> Save as... -> MicroPython device`. Save it as `mpu6050.py` in the root directory of your device.
     * Alternatively, use `ampy`, `rshell`, or other tools to copy the file to your microcontroller.
+      <img src="https://github.com/roman-wolfensperger/MPU6050/blob/main/docs/images/micropython-device.jpg">
 
 2.  **Import the module in your main script:**
     In your main MicroPython script (e.g., `main.py` on your device), you can import the `MPU6050` class:
